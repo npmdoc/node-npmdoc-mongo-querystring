@@ -1,4 +1,7 @@
-# api documentation for  [mongo-querystring (v4.1.0)](https://github.com/Turistforeningen/node-mongo-querystring#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-mongo-querystring.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-mongo-querystring) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-mongo-querystring.svg)](https://travis-ci.org/npmdoc/node-npmdoc-mongo-querystring)
+# npmdoc-mongo-querystring
+
+#### basic api documentation for  [mongo-querystring (v4.1.0)](https://github.com/Turistforeningen/node-mongo-querystring#readme)  [![npm package](https://img.shields.io/npm/v/npmdoc-mongo-querystring.svg?style=flat-square)](https://www.npmjs.org/package/npmdoc-mongo-querystring) [![travis-ci.org build-status](https://api.travis-ci.org/npmdoc/node-npmdoc-mongo-querystring.svg)](https://travis-ci.org/npmdoc/node-npmdoc-mongo-querystring)
+
 #### Parse and pass URL queries to MongoDB query
 
 [![NPM](https://nodei.co/npm/mongo-querystring.png?downloads=true&downloadRank=true&stars=true)](https://www.npmjs.com/package/mongo-querystring)
@@ -90,7 +93,8 @@
         "test": "mocha -c -b --check-leaks -R tap test.js examples/test.js",
         "test:watch": "mocha -w -c -b --check-leaks -R progress test.js examples/test.js"
     },
-    "version": "4.1.0"
+    "version": "4.1.0",
+    "bin": {}
 }
 ```
 
