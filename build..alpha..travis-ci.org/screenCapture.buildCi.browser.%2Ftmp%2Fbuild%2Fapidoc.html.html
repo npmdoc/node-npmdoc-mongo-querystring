@@ -63,28 +63,6 @@
 
         </li>
 
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.mongo-querystring.toString">
-            function <span class="apidocSignatureSpan">mongo-querystring.</span>toString
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
-    </ol></li>
-
-    <li class="apidocModuleLi"><a href="#apidoc.module.mongo-querystring.toString">module mongo-querystring.toString</a><ol>
-
-        <li>
-
-            <a class="apidocElementLiA" href="#apidoc.element.mongo-querystring.toString.toString">
-            function <span class="apidocSignatureSpan">mongo-querystring.</span>toString
-            <span class="apidocSignatureSpan">()</span>
-            </a>
-
-        </li>
-
     </ol></li>
 
 </ol></div>
@@ -143,71 +121,6 @@
   return this;
 }</pre></li>
     <li>example usage<pre class="apidocCodePre">n/a</pre></li>
-    </ul>
-
-
-
-    <h2>
-        <a href="#apidoc.element.mongo-querystring.toString" id="apidoc.element.mongo-querystring.toString">
-        function <span class="apidocSignatureSpan">mongo-querystring.</span>toString
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">toString = function () {
-    return text;
-}</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-
-  return date;
-}
-
-module.exports.prototype.customAfter = field =&gt; (query, value) =&gt; {
-  const date = parseDate(value);
-
-  if (date.<span class="apidocCodeKeywordSpan">toString</span>() !== 'Invalid Date') {
-    query[field] = {
-      $gte: date.toISOString(),
-    };
-  }
-};
-
-module.exports.prototype.customBefore = field =&gt; (query, value) =&gt; {
-...</pre></li>
-    </ul>
-
-
-</div>
-
-<div class="apidocSectionDiv">
-<h1><a href="#apidoc.module.mongo-querystring.toString" id="apidoc.module.mongo-querystring.toString">module mongo-querystring.toString</a></h1>
-
-
-    <h2>
-        <a href="#apidoc.element.mongo-querystring.toString.toString" id="apidoc.element.mongo-querystring.toString.toString">
-        function <span class="apidocSignatureSpan">mongo-querystring.</span>toString
-        <span class="apidocSignatureSpan">()</span>
-        </a>
-    </h2>
-    <ul>
-    <li>description and source-code<pre class="apidocCodePre">function toString() { [native code] }</pre></li>
-    <li>example usage<pre class="apidocCodePre">...
-
-  return date;
-}
-
-module.exports.prototype.customAfter = field =&gt; (query, value) =&gt; {
-  const date = parseDate(value);
-
-  if (date.<span class="apidocCodeKeywordSpan">toString</span>() !== 'Invalid Date') {
-    query[field] = {
-      $gte: date.toISOString(),
-    };
-  }
-};
-
-module.exports.prototype.customBefore = field =&gt; (query, value) =&gt; {
-...</pre></li>
     </ul>
 
 
